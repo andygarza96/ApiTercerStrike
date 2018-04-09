@@ -1,0 +1,14 @@
+{
+  "name": "tercerstrike",
+  "version": "1.0.0",
+  "description": "Plataforma para control de escuela de beisbol",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JORGE LUIS ROMO GONZALEZ",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^5.0.13"
+  }
+}
