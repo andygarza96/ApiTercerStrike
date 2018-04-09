@@ -12,5 +12,6 @@ app.use(express.static(__dirname + '/node_modules/bootstrap/dist'));
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
 
+// COMENTARIO MIGUEL
 
 module.exports = app;
