@@ -15,7 +15,7 @@ mongoose.connect('mongodb://localhost:27017/tercer_strike', (err,res) => {
     if(err){
         throw err;
     }else{
-        console.log("Conexion a mongo exitosa");
+        console.log("Conexion a MONGODB exitosa");
         app.listen(port, function () {
             console.log(`API REST FAVORITOS FUNCIONANDO en ${port}`);
         });
